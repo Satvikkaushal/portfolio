@@ -1,0 +1,10 @@
+.full{
+    /* transition-delay: 2s; */
+    scroll-behavior: smooth;
+}
+#navbarNav{
+    margin-left:500px;
+}
+.nav-item{
+    margin-left: 30px;
+}

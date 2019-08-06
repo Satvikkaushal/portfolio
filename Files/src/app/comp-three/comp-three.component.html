@@ -1,0 +1,23 @@
+<div class="resume" style="text-align: center">
+     <h2 style="font-weight: 700">PROJECTS<br></h2>
+     <P>All things are difficult before they are easy</P>
+     <hr width=85% style="border: 1px solid black">
+     <!-- <div class="list"><button (click)="onClick()">{{button}}</button>
+     <button (click)="onClick1()">unity</button>
+     <button (click)="onClick1()">others</button>
+     </div> --><div class="pro">
+     <button type="button" class="btn btn-default" (click)="onClick()">C++</button>
+     <button type="button" class="btn btn-default" (click)="onClick1()">Unity</button>
+     <button type="button" class="btn btn-default" (click)="onClick3()">web</button>
+     <button type="button" class="btn btn-default" (click)="onClick2()">Java</button></div>
+     
+     <!-- <p id="demo"></p> -->
+</div><div class="projects">
+<div *ngFor="let image of allImagesWithMesurments" class="Individualprojects">
+        <img [src]="image.src" [height]="image.height" [width]="image.width">
+        
+    </div>
+    <br>
+    <br>
+</div>
+
